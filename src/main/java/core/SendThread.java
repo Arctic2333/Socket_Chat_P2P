@@ -14,7 +14,7 @@ import java.util.Scanner;
  * @date 2020-10-28 15:10
  */
 public class SendThread extends Thread {
-    private Socket socket;
+    private final Socket socket;
 
     public SendThread(Socket s) {
         this.socket = s;
